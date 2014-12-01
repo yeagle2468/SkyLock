@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">iOS8 FireFly Lock</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	
+    <string name="lock_slide_to_unlock">> Slide to unlock</string>
+    
+    <string name="lock_charging_info">"charging: %1$s"</string>
+    <string name="lock_battery_info">"power: %1$s"</string>
+    <string name="lock_battery_full">Charged full</string>
+    
+    <string name="lock_enable_lock">Enanble Screen</string>
+    <string name="lock_one_lock">"Enable One-Click-Lock\nEnbale, and will send icon to desktop"</string>
+    
+    <string name="lock_one_key">One-Click-Lock</string>
+    
+    <string name="lock_disenable_sys_lock">Disable System Lock</string>
+    <string name="lock_disenable_syslock_info">"Setting\"Screen unlock-none\""</string>
+    
+    <string name="lock_preview">Preview</string>
+    <string name="lock_set_wallpaper">Set Wallpaper</string>
+    <string name="lock_set_date_format">24 Hour format</string>
+    <string name="lock_fullscreen_show">"Full screen\nHide the notification bar"</string>
+    <!-- <string name="lock_hide_status">隐藏通知栏</string> -->
+     
+    <string name="lock_send_shortcut">Send One-Click-Lock icon to desktop</string>
+    
+    <string name="lock_type">Lock Screen Type</string>
+    <string name="lock_coming">Coming&#8230;</string>
+    
+    <string name="lock_wallpaper">Wallpaper</string>
+    
+    <string name="lock_color_saturation">Saturation</string>
+    
+    <string name="lock_share_content">"Try this appalication, and you will love it. Search \"iOS8萤火虫锁屏\" in market"</string>
+    
+    <string name="lock_feedback">Feedback</string>
+    <string name="lock_share">Share</string>
+    <string name="lock_about">About</string>
+    
+    <string name="lock_cancel">Cancel</string>
+    <string name="lock_ok">Confirm</string>
+    <string name="lock_restore">Restore</string>
+    <string name="lock_clear">Clear</string>
+    <string name="lock_backspace">Backspace</string>
+    <string name="lock_input_password">Input password</string>
+    
+    <string name="lock_font_color">Font Color</string>
+    
+    <string name="lock_contact_me">Contact me：newzeadge@qq.com</string>
+    <string name="lock_wel_segguest">Welcome your email</string>
+    
+    <string name="lock_tell_friends">Share with your friends</string>
+    <string name="lock_suggest_idea">Tell me your idea</string>
+    
+    <string name="lock_active_info">you can lock screen after activate</string>
+    
+    <string name="lock_about_info">"The lock screen is committed to build small, fast, safe lock screen，and more funciotn is coming, please pay attention to！"</string>
+    
+    <string name="lock_notification_title">" is running"</string>
+    <string name="lock_notification_content">touch to request more infomation, or stop appcation</string>
+    <string name="lock_help">Problems</string>
+    
+    <string-array name="lock_weekday_array">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>

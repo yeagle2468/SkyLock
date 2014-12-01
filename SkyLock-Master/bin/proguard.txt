@@ -1,0 +1,77 @@
+# view res/layout/lockscreen_main.xml #generated:8
+-keep class com.guobi.lock.LockLayout { <init>(...); }
+
+# view res/layout/lockscreen_main.xml #generated:206
+-keep class com.guobi.lock.TurnPageView { <init>(...); }
+
+# view res/layout/lock_colorpicker_layout.xml #generated:30
+-keep class com.larswerkman.holocolorpicker.ColorPicker { <init>(...); }
+
+# view res/layout/lock_colorpicker_layout.xml #generated:46
+-keep class com.larswerkman.holocolorpicker.SaturationBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.umeng.fb.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.umeng.fb.ConversationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.umeng.update.net.DownloadingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.yeagle.sky.lock.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.yeagle.sky.lock.FireFlyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.yeagle.sky.lock.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.yeagle.sky.lock.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.yeagle.sky.lock.KeyguardAdminLockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.yeagle.sky.lock.KeyguardDeviceAdminReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.yeagle.sky.lock.KeyguardService { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.yeagle.sky.lock.LockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.yeagle.sky.lock.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.yeagle.sky.lock.SetPaperActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.yeagle.sky.lock.UserPresentReceiver { <init>(...); }
+
+# view res/layout/pin_panel.xml #generated:109
+# view res/layout/pin_panel.xml #generated:120
+# view res/layout/pin_panel.xml #generated:140
+# view res/layout/pin_panel.xml #generated:149
+# view res/layout/pin_panel.xml #generated:16
+# view res/layout/pin_panel.xml #generated:160
+# view res/layout/pin_panel.xml #generated:26
+# view res/layout/pin_panel.xml #generated:37
+# view res/layout/pin_panel.xml #generated:58
+# view res/layout/pin_panel.xml #generated:68
+# view res/layout/pin_panel.xml #generated:79
+# view res/layout/pin_panel.xml #generated:99
+-keep class com.yeagle.sky.lock.view.PinItemView { <init>(...); }
+
+# view res/layout/lock_pin_layout.xml #generated:2
+-keep class com.yeagle.sky.lock.widget.PinLockView { <init>(...); }
+
+# view res/layout/swipeback_layout.xml #generated:2
+-keep class me.imid.swipebacklayout.lib.SwipeBackLayout { <init>(...); }
+

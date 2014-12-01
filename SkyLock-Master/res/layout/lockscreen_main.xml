@@ -1,0 +1,211 @@
+
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<com.guobi.lock.LockLayout 
+    android:id="@+id/lock_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10.0" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.5"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:orientation="horizontal"
+            android:weightSum="8.75" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8" />
+
+            <ImageView
+                android:id="@+id/hour_1_imageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.06" />
+
+            <ImageView
+                android:id="@+id/hour_2_imageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.06" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3225" />
+
+            <ImageView
+                android:id="@+id/separate_imageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.265" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3225" />
+
+            <ImageView
+                android:id="@+id/minutes_1_imageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.06" />
+
+            <ImageView
+                android:id="@+id/minutes_2_imageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.06" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="8.75" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8" />
+
+            <TextView
+                android:id="@+id/date_textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="2.85"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/lockscreen_date_font_size" />
+
+            <TextView
+                android:id="@+id/week_textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.3"
+                android:gravity="right|center_vertical"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/lockscreen_date_font_size" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2" />
+    </LinearLayout>
+
+    <!-- <include
+        android:id="@+id/lock_area"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.0"
+        layout="@layout/lockscreen_lock_view"
+        android:clickable="true" /> -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.2"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:weightSum="1.0"
+        >
+        <!-- <ImageView
+            android:id="@+id/lockscreen_up_prompt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lockscreen_prompt_arrows"
+            android:layout_weight="0.005"
+             />
+
+        <ImageView
+            android:id="@+id/lockscreen_up_prompt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.003"
+            android:src="@drawable/lockscreen_prompt_point" /> 
+
+        <ImageView
+            android:id="@+id/lockscreen_up_prompt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.003"
+            android:src="@drawable/lockscreen_prompt_point" /> -->
+        
+        <!--< View 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            /> -->
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上下滑动解锁"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            />
+        
+        <!-- <ImageView
+            android:id="@+id/lockscreen_down_prompt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.003"
+            android:src="@drawable/lockscreen_prompt_point" />
+
+        <ImageView
+            android:id="@+id/lockscreen_down_prompt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.003"
+            android:src="@drawable/lockscreen_prompt_point" />
+
+        <ImageView
+            android:id="@+id/lockscreen_down_prompt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.005"
+            android:src="@drawable/lockscreen_prompt_arrows" /> -->
+    </LinearLayout>
+
+    
+</com.guobi.lock.LockLayout>
+
+<com.guobi.lock.TurnPageView 
+    android:id="@+id/lock_turnpageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+</FrameLayout>

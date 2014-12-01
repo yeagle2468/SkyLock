@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="lock_lockview">140805004</item>
+    <item type="id" name="lock_unlock_textview">140805005</item>
+</resources>

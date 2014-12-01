@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.sky.lock"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lock_font_color"
+        android:background="@drawable/custom_dialog_bg_title"
+        android:gravity="center_vertical"
+        android:textColor="#ff5a5a5a"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_dialog_bg_content"
+        >
+    <com.larswerkman.holocolorpicker.ColorPicker 
+        android:id="@+id/colorpicker_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    
+    <TextView android:id="@+id/lock_saturation_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:text="@string/lock_color_saturation"
+        android:layout_marginLeft="18dp"
+        />
+    
+	<com.larswerkman.holocolorpicker.SaturationBar
+	    android:id="@+id/staturation_view"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	
+	<!-- <com.larswerkman.holocolorpicker.ValueBar
+	    android:id="@+id/value_view"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	
+	<com.larswerkman.holocolorpicker.SVBar
+	    android:id="@+id/sv_view"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        /> -->
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:layout_marginTop="23dp"
+	    >
+	    <Button android:id="@+id/color_picker_cancel"
+	        android:layout_width="0dp"
+	        android:layout_height="40dp"
+	        android:layout_weight="1"
+	        android:text="@string/lock_cancel"
+	        android:textColor="#636363"
+	        android:background="@drawable/dialog_button_drawable"
+	        android:textSize="15sp"
+	        />
+	    <Button android:id="@+id/color_picker_restore"
+	        android:layout_width="0dp"
+	        android:layout_height="40dp"
+	        android:layout_weight="1"
+	        android:text="@string/lock_restore"
+	        android:background="@drawable/dialog_button_drawable"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginLeft="8dp"
+	        android:textColor="#3ae800"
+	        android:textSize="15sp"
+	        />
+	    <Button android:id="@+id/color_picker_ok"
+	        android:layout_width="0dp"
+	        android:layout_height="40dp"
+	        android:layout_weight="1"
+	        android:text="@string/lock_ok"
+	        android:background="@drawable/dialog_button_drawable"
+	        android:textColor="#636363"
+	        android:textSize="15sp"
+	        />
+	</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+</ScrollView>

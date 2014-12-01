@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#fff0f0f0">
+    
+     <include android:id="@+id/about_title"
+        layout="@layout/title_bar_back"/>
+     
+     <TextView 
+         style="@style/help_title_tv_style"
+         android:text="@string/lock_help_title1"
+         />
+     
+     <TextView 
+         style="@style/help_content_tv_style"
+         android:text="@string/lock_help_content1"
+         />
+     
+     <View 
+         style="@style/help_line_view_style"
+         />
+     
+	<TextView 
+         style="@style/help_title_tv_style"
+         android:text="@string/lock_help_title2"
+         />
+	
+	<TextView 
+         style="@style/help_content_tv_style"
+         android:text="@string/lock_help_content2"
+         />
+	
+	<View 
+         style="@style/help_line_view_style"
+         />
+	
+	<TextView 
+         style="@style/help_title_tv_style"
+         android:text="@string/lock_help_title3"
+         />
+	
+	<TextView 
+         style="@style/help_content_tv_style"
+         android:text="@string/lock_help_content3"
+         />
+	
+	<View 
+         style="@style/help_line_view_style"
+         />
+	
+</LinearLayout>

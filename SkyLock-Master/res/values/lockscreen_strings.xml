@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">iOS8萤火虫锁屏</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="lockscreen_test_string">2222年22月22日2</string>
+    <string name="lock_format">" MM 月 dd 日 "</string>
+    
+    <string name="lock_slide_to_unlock">> 滑动解锁</string>
+    <string name="lock_cancel">取消</string>
+    <string name="lock_ok">确定</string>
+    <string name="lock_clear">清除</string>
+    <string name="lock_backspace">回退</string>
+    <string name="lock_restore">恢复默认</string>
+    <string name="lock_input_password">输入密码</string>
+    
+    <string name="lock_enable_lock">开启锁屏</string>
+    <string name="lock_one_lock">"启用一键锁屏\n开启即发送快捷方式到桌面"</string>
+    
+    <string name="lock_one_key">"一键锁屏"</string>
+    
+    <string name="lock_disenable_sys_lock">关闭系统锁屏</string>
+    <string name="lock_disenable_syslock_info">"设置\"屏幕锁屏-无\",即可阻止双锁屏出现"</string>
+    
+    <string name="lock_preview">锁屏预览</string>
+    <string name="lock_set_wallpaper">设置锁屏壁纸</string>
+    <string name="lock_choose_wallpaper">选择锁屏壁纸</string>
+    <string name="lock_set_date_format">24小时制</string>
+    <string name="lock_fullscreen_show">"全屏显示\n隐藏通知栏"</string>
+    <!-- <string name="lock_hide_status">隐藏通知栏</string> -->
+    
+    <string name="lock_send_shortcut">发送桌面一键锁屏快捷方式</string>
+    
+    <string name="lock_type">锁屏类型</string>
+    <string name="lock_coming">即将到来，敬请关注&#8230;</string>
+    
+    <string name="lock_wallpaper">锁屏壁纸</string>
+    
+    <string name="lock_share_content">"我在使用\"iOS8萤火虫锁屏\"，你也将会喜欢她的。在各大市场搜索\"iOS8萤火虫锁屏\""</string>
+    
+    <string name="lock_feedback">反馈</string>
+    <string name="lock_share">分享</string>
+    <string name="lock_about">关于</string>
+    <string name="lock_help">常见问题</string>
+    
+    <string name="lock_notification_title">正在执行</string>
+    <string name="lock_notification_content">触碰来获取更多信息，或停止应用程序</string>
+    
+    <string name="lock_help_title1">1、小米手机无法锁屏？</string>
+    <string name="lock_help_content1">请按以下步骤设置：进入系统设置 - 应用 - 在应用列表中找到iOS8萤火虫锁屏并点击进入 - 打开“显示悬浮层开关” - 最后再次启动iOS8萤火虫锁屏</string>
+    <string name="lock_help_title2">2、应用无法卸载？</string>
+    <string name="lock_help_content2">如果您开启"一键锁屏"功能，则卸载之前在功能设置里面先关闭"一键锁屏"功能，在尝试卸载。</string>
+    <string name="lock_help_title3">3、被清理工具清理？</string>
+    <string name="lock_help_content3">请将应用加入忽略名单，如360：先点击悬浮按钮 -> 下方会显示后台软件 -> 滑动到最右端，有个忽略名单 -> 点击忽略名单 -> 在忽略名单界面最下方点击添加按钮 -> 将本应用添加即可。</string>
+    
+    <string name="lock_font_color">字体颜色</string>
+    
+    <string name="lock_contact_me">联系方式：newzeadge@qq.com</string>
+    <string name="lock_wel_segguest">欢迎您的反馈或建议</string>
+    
+    <string name="lock_charging_info">"正在充电：%1$s"</string>
+    <string name="lock_battery_info">"电量：%1$s"</string>
+    <string name="lock_battery_full">已充满</string>
+    
+    <string name="lock_color_saturation">饱和度</string>
+    
+    <string name="lock_tell_friends">告诉您的好友</string>
+    <string name="lock_suggest_idea">说说您的想法</string>
+    
+    <string name="lock_active_info">激活后才能使用锁屏功能哦亲^^</string>
+    
+    <string name="lock_about_info">"本锁屏致力打造小巧、快速、安全的锁屏，更多功能即将来临，敬请关注！"</string>
+    
+ 	<string-array name="lock_weekday_array">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:id="@+id/num_panel_keyboard"
+    >
+    
+    <LinearLayout android:id="@+id/row123"
+        android:gravity="center_horizontal" 
+        android:orientation="horizontal"  
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        >
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num1" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num1_unlock_normal"
+	        android:padding="12dp"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num2" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num2_unlock_normal"
+	        android:padding="12dp"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num3" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num3_unlock_normal"
+	        android:padding="12dp"
+	        />
+	</LinearLayout>
+	
+    
+    <LinearLayout android:id="@+id/row456"
+        android:gravity="center_horizontal" 
+        android:orientation="horizontal"  
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        >
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num4" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num4_unlock_normal"
+	        android:padding="12dp"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num5" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num5_unlock_normal"
+	        android:padding="12dp"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num6" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num6_unlock_normal"
+	        android:padding="12dp"
+	        />
+	</LinearLayout>
+	
+    <LinearLayout android:id="@+id/row789"
+        android:gravity="center_horizontal" 
+        android:orientation="horizontal"  
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        >
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num7" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num7_unlock_normal"
+	        android:padding="12dp"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num8" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num8_unlock_normal"
+	        android:padding="12dp"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num9" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num9_unlock_normal"
+	        android:padding="12dp"
+	        />
+	</LinearLayout>
+	
+    <LinearLayout android:id="@+id/row000"
+        android:gravity="center_horizontal" 
+        android:orientation="horizontal"  
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        >
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_clear" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@android:color/white"
+	        app:text="@string/lock_clear"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_num0" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@color/lock_pin_touched_color"
+	        android:src="@drawable/num0_unlock_normal"
+	        android:padding="12dp"
+	        />
+	    <com.yeagle.sky.lock.view.PinItemView 
+	        android:id="@+id/dial_btn_backspace" 
+	        android:layout_width="75.0dip" 
+	        android:layout_height="75.0dip" 
+	        android:layout_marginLeft="20.0dip"
+	        android:scaleType="centerInside" 
+	        android:soundEffectsEnabled="false"
+	        app:bg_color="@android:color/white"
+	        app:text="@string/lock_backspace"
+	        />
+	</LinearLayout>
+	
+    <!-- <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/row123" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num1" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num1_unlock_normal" app:stateSrc="@drawable/num1_unlock_press" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num2" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num2_unlock_normal" app:stateSrc="@drawable/num2_unlock_press" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num3" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num3_unlock_normal" app:stateSrc="@drawable/num3_unlock_press" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/row456" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num4" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num4_unlock_normal" app:stateSrc="@drawable/num4_unlock_press" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num5" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num5_unlock_normal" app:stateSrc="@drawable/num5_unlock_press" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num6" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num6_unlock_normal" app:stateSrc="@drawable/num6_unlock_press" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/row789" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num7" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num7_unlock_normal" app:stateSrc="@drawable/num7_unlock_press" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num8" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num8_unlock_normal" app:stateSrc="@drawable/num8_unlock_press" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num9" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num9_unlock_normal" app:stateSrc="@drawable/num9_unlock_press" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/row000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_reset" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:text="@string/unlock_password_cancle" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_num0" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:src="@drawable/num0_unlock_normal" app:stateSrc="@drawable/num0_unlock_press" />
+        <com.yeagle.sky.lock.view.PinItemView android:id="@+id/dial_btn_del" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerInside" android:soundEffectsEnabled="false" app:text="@string/unlock_password_delete" />
+    </LinearLayout> -->
+</LinearLayout>

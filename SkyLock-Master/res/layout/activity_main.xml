@@ -1,0 +1,247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include android:id="@+id/title_textview"
+        layout="@layout/title_bar"/>
+	
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff4f4f4"
+        android:layout_below="@+id/title_textview"
+        >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        >
+        <CheckBox android:id="@+id/lock_id_enable_lock"
+            android:text="@string/lock_enable_lock"
+            android:background="@drawable/top_item_press"
+            style="@style/checkbox_style"
+            />
+        <CheckBox android:id="@+id/lock_id_one_lock"
+            android:text="@string/lock_one_lock"
+            android:background="@drawable/middle_item_press"
+            style="@style/checkbox_style"
+            />
+        
+        <RelativeLayout android:id="@+id/lock_id_shortcut"
+            android:background="@drawable/middle_item_press"
+            style="@style/layout_item_style"
+            >
+            <TextView 
+                android:text="@string/lock_send_shortcut"
+                style="@style/tv_item_main_style"
+                android:layout_centerVertical="true"
+                />
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout android:id="@+id/lock_id_disenable_lock"
+            android:background="@drawable/bottom_item_press"
+            style="@style/layout_item_style"
+            >
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                >
+                <TextView android:id="@+id/tv1"
+	                android:text="@string/lock_disenable_sys_lock"
+	                style="@style/tv_item_main_style"
+	                />
+	            <TextView 
+	                style="@style/tv_item_assistant_style"
+	                android:text="@string/lock_disenable_syslock_info"
+	                />
+            </LinearLayout>
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout android:id="@+id/lock_id_preview"
+            android:background="@drawable/top_item_press"
+            style="@style/layout_item_style"
+            android:layout_marginTop="12dp"
+            >
+            <TextView 
+                android:text="@string/lock_preview"
+                style="@style/tv_item_main_style"
+                android:layout_centerVertical="true"
+                />
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        
+        <CheckBox android:id="@+id/lock_id_fullscreen"
+            android:text="@string/lock_fullscreen_show"
+            android:background="@drawable/middle_item_press"
+            style="@style/checkbox_style"
+            />
+        
+        <RelativeLayout android:id="@+id/lock_id_setpaper"
+            android:background="@drawable/middle_item_press"
+            style="@style/layout_item_style"
+            >
+            <TextView 
+                android:text="@string/lock_set_wallpaper"
+                style="@style/tv_item_main_style"
+                android:layout_centerVertical="true"
+                />
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        
+        <CheckBox android:id="@+id/lock_id_dateformat"
+            android:text="@string/lock_set_date_format"
+            android:background="@drawable/middle_item_press"
+            style="@style/checkbox_style"
+            />
+        <RelativeLayout android:id="@+id/lock_id_font_color"
+            android:background="@drawable/middle_item_press"
+            style="@style/layout_item_style"
+            >
+            <TextView 
+                android:text="@string/lock_font_color"
+                style="@style/tv_item_main_style"
+                android:layout_centerVertical="true"
+                />
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        <!-- <RelativeLayout android:id="@+id/lock_id_dateformat"
+            android:background="@drawable/middle_item_press"
+            style="@style/layout_item_style"
+            >
+            <TextView 
+                android:text="@string/lock_set_date_format"
+                style="@style/tv_item_main_style"
+                android:layout_centerVertical="true"
+                />
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout> -->
+        
+        <RelativeLayout android:id="@+id/lock_id_type"
+            android:background="@drawable/bottom_item_press"
+            style="@style/layout_item_style"
+            >
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                >
+                <TextView 
+	                android:text="@string/lock_type"
+	                style="@style/tv_item_main_style"
+	                />
+	            <TextView 
+	                style="@style/tv_item_assistant_style"
+	                android:text="@string/lock_coming"
+	                />
+            </LinearLayout>
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+        
+        
+        <RelativeLayout android:id="@+id/lock_id_feedback"
+            android:background="@drawable/top_item_press"
+            style="@style/layout_item_style"
+            android:layout_marginTop="12dp"
+            >
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                >
+                <TextView 
+	                android:text="@string/lock_feedback"
+	                style="@style/tv_item_main_style"
+	                />
+	            <TextView 
+	                style="@style/tv_item_assistant_style"
+	                android:text="@string/lock_suggest_idea"
+	                />
+            </LinearLayout>
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout android:id="@+id/lock_id_share"
+            android:background="@drawable/middle_item_press"
+            style="@style/layout_item_style"
+            >
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                >
+                <TextView 
+	                android:text="@string/lock_share"
+	                style="@style/tv_item_main_style"
+	                />
+	            <TextView 
+	                style="@style/tv_item_assistant_style"
+	                android:text="@string/lock_tell_friends"
+	                />
+            </LinearLayout>
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout android:id="@+id/lock_id_help"
+            android:background="@drawable/middle_item_press"
+            style="@style/layout_item_style"
+            >
+            <TextView 
+                android:text="@string/lock_help"
+                style="@style/tv_item_main_style"
+                android:layout_centerVertical="true"
+                />
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout android:id="@+id/lock_id_about"
+            android:background="@drawable/bottom_item_press"
+            style="@style/layout_item_style"
+            android:layout_marginBottom="25dp"
+            >
+            <TextView 
+                android:text="@string/lock_about"
+                style="@style/tv_item_main_style"
+                android:layout_centerVertical="true"
+                />
+            <ImageView 
+                style="@style/imageview_right_arrow_style"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
